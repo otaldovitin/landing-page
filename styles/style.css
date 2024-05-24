@@ -1,0 +1,39 @@
+/* Polygon */
+/* .title-img {
+  box-sizing: border-box;
+
+  position: absolute;
+  height: 686.6px;
+  left: 113.74px;
+  right: -8.36px;
+  top: 0px;
+
+  background: url(/images/cyberlock.webp),
+    radial-gradient(
+        97.57% 210.75% at 0.9% 2.98%,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(255, 255, 255, 0) 100%
+      )
+  box-shadow: 0px 20px 42.5px rgba(107, 230, 255, 0.3);
+  border-radius: 45px;
+  transform: rotate(9.54deg);
+} */
+
+.hexagon {
+  margin: 5rem;
+  width: 500px;
+  height: 500px;
+  background-image: url(/images/cyberlock.webp);
+  background-size: cover;
+  background-position: -200px center;
+  -webkit-mask: url(/svgs/Imagem\ hexagonal.svg) no-repeat center;
+  mask: url(/svgs/Imagem\ hexagonal.svg) no-repeat center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  overflow: hidden;
+}
+
+/* Pré definições */
+body{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
