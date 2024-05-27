@@ -61,6 +61,31 @@ body {
     border-color: #1558b3;
 }
 
+
+/* Estilo e animação da imagem hexagonal */
+.hexagon-container {
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    animation: moveUpDown 3s ease-in-out infinite;
+}
+
+.hexagon-image {
+    max-width: 80%; /* Ajusta o tamanho da imagem hexagonal */
+    height: auto;
+    border-radius: 10px;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
 /* second section */
 
 .about-section {
@@ -147,27 +172,3 @@ body {
 
 
 
-
-/* Estilo e animação da imagem hexagonal */
-.hexagon-container {
-    flex: 1;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100%;
-    animation: moveUpDown 3s ease-in-out infinite;
-}
-
-.hexagon-image {
-    max-width: 80%; /* Ajusta o tamanho da imagem hexagonal */
-    height: auto;
-    border-radius: 10px;
-}
-
-@keyframes moveUpDown {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-}
