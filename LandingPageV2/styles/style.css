@@ -1,0 +1,173 @@
+*{
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0d1b2a;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.header-section {
+    position: relative;
+    height: 100vh;
+    background-image: url('../images/cyberlock.webp'); /* Ajuste para usar a imagem como fundo */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Adiciona um overlay escuro */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-section .container {
+    z-index: 1;
+    position: relative;
+}
+
+.header-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.header-section p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.btn-primary {
+    background-color: #1f6feb;
+    border-color: #1f6feb;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+}
+
+.btn-primary:hover {
+    background-color: #1558b3;
+    border-color: #1558b3;
+}
+
+/* second section */
+
+.about-section {
+    background-color: transparent; /* Define o fundo transparente para o stroke */
+    border: 4px solid #0d1b2a; /* Adiciona um stroke azul escuro */
+    padding: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden; /* Para evitar que o conteúdo ultrapasse a largura máxima */
+}
+
+
+
+.about-content h2 {
+    padding-top: 2rem;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    background: linear-gradient(to bottom, #c9e8ff, #72b4e5);
+    -webkit-background-clip: text; /* Aplica o degrade ao texto */
+    -webkit-text-fill-color: transparent; /* Define a cor do texto como transparente */
+     
+}
+
+.about-text {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 3px; /* Espaçamento da borda esquerda */
+}
+
+.about-text p {
+    margin: 20;
+    font-size: 1.2rem;
+}
+
+
+/* third section */
+.products-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.products-section h2 {
+    padding-top: 2rem;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    background: linear-gradient(to bottom, #c9e8ff, #72b4e5);
+    -webkit-background-clip: text; /* Aplica o degrade ao texto */
+    -webkit-text-fill-color: transparent; /* Define a cor do texto como transparente */
+}
+
+.slide{
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    transition: opacity 1s ease;
+    background-size: 1300px ; /* Definindo o tamanho da imagem como o tamanho original */
+    background-position: center;
+    background-repeat: no-repeat; /* Para garantir que a imagem não seja repetida */
+}
+
+.slide h3{
+    padding-top: 10rem;
+    text-align: center;
+    padding-top: px;
+    padding-left: 3px; /* Espaçamento da borda esquerda */
+    padding-left: 1rem;
+    font-size: 54px;
+    font-family: ;
+}
+
+.slide p{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 1rem;
+    padding-bottom: 50rem ;
+    font-size: 24;
+}
+
+
+
+
+/* Estilo e animação da imagem hexagonal */
+.hexagon-container {
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    animation: moveUpDown 3s ease-in-out infinite;
+}
+
+.hexagon-image {
+    max-width: 80%; /* Ajusta o tamanho da imagem hexagonal */
+    height: auto;
+    border-radius: 10px;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
