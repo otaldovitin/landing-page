@@ -61,6 +61,83 @@ body {
     border-color: #1558b3;
 }
 
+/* Navbar */
+.navbar-logo{
+    height: 60px !important;
+}
+
+.custom-bg {
+    background-color: #180045;
+}
+
+.navbar-brand {
+    margin-left: 140px;
+}
+
+.navbar-logo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.navbar-logo-text {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.navbar-nav {
+    margin-right: 140px;
+    align-items: center;
+}
+
+.nav-link {
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.navbar-separator {
+    width: 1px;
+    height: 30px;
+    background-color: #fff;
+    margin: 0 15px;
+}
+
+/* first section */
+
+.title-scdt {
+    font-size: 6.5rem !important;
+  }
+  
+  .subtitle-scdt {
+    font-size: 1.5rem !important;
+  }
+  
+  .button-scdt {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5rem !important;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    padding: 8px 24px;
+    border-radius: 50px;
+    background-image: linear-gradient(175deg, #7c8aff, #3c4fe0);
+    box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
+      0 1px 3px 0 rgb(93 100 148 / 20%);
+    transition: all 0.2s ease-out;
+    :hover {
+      box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%),
+        0 4px 6px 0 rgb(93 100 148 / 20%);
+    }
+  }
+
 
 /* Estilo e animação da imagem hexagonal */
 .hexagon-container {

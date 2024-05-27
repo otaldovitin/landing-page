@@ -6,50 +6,70 @@
     <title>Landing Page - Segurança Cibernética</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Minha Empresa</a>
+    
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark custom-bg">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="images/PTI-2022_Globo_Monocromático_Branco.png" alt="Logo" class="navbar-logo">
+            <span class="navbar-logo-text">SC.DT</span>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Serviços</a>
+                    <a class="nav-link" href="#">Sobre Nós</a>
                 </li>
+                <div class="navbar-separator"></div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projetos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Projeto 1</a>
+                        <a class="dropdown-item" href="#">Projeto 2</a>
+                        <a class="dropdown-item" href="#">Projeto 3</a>
+                    </div>
+                </li>
+                <div class="navbar-separator"></div>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contato</a>
                 </li>
             </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <!-- Header Section -->
-    <section class="header-section">
-        <div class="overlay">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 hexagon-container">
-                        <!-- Imagem Hexagonal -->
-                        <img src="svgs/Imagem hexagonal.svg" alt="Hexágono" class="hexagon-image">
-                    </div>
-                    <div class="col-md-6">
-                        <!-- Espaço para imagem ou logo se necessário -->
-                    </div>
-                    <div class="col-md-6 text-white">
-                        <h1>Segurança Cibernética SC.DT</h1>
-                        <p>Mais de 10 anos em pesquisa e desenvolvimento de soluções tecnológicas na área de segurança cibernética e infraestruturas críticas.</p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
-                    </div>
+
+<!-- Header Section -->
+<section class="header-section">
+    <div class="overlay">
+        <div class="hexagon-container d-flex align-content-center">
+            <img src="images/Polygon.png" alt="Hexágono" class="hexagon-image">
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-white">
+                    <h1 class="title-scdt">Segurança Cibernética SC.DT</h1>
+                    <p class="subtitle-scdt">Mais de 10 anos em pesquisa e desenvolvimento de soluções tecnológicas na área de segurança cibernética e infraestruturas críticas.</p>
+                    <button class="button-scdt" href="#" class="btn btn-primary">Saiba mais</a>
                 </div>
+                <div class="col-md-6">
+                    <!-- Espaço para imagem ou logo se necessário -->
+                </div>
+                
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Seção com fundo sólido -->
     <section class="second-section">
