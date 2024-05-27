@@ -1,5 +1,15 @@
 *{
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container-nav{
+    max-width: 1400px !important;
+}
+
+.container-main {
+    overflow: visible !important;
+    max-width: 800px !important;
 }
 
 body {
@@ -15,7 +25,7 @@ body {
 .header-section {
     position: relative;
     height: 100vh;
-    background-image: url('../images/cyberlock.webp'); /* Ajuste para usar a imagem como fundo */
+    background-image: url('../images/Intersect.png'); /* Ajuste para usar a imagem como fundo */
     background-size: cover;
     background-position: center;
     color: white;
@@ -141,27 +151,27 @@ body {
 
 /* Estilo e animação da imagem hexagonal */
 .hexagon-container {
-    flex: 1;
-    justify-content: flex-end;
+    justify-content: flex-center;
     align-items: center;
     height: 100%;
-    animation: moveUpDown 3s ease-in-out infinite;
-}
-
-.hexagon-image {
-    max-width: 80%; /* Ajusta o tamanho da imagem hexagonal */
+    animation: moveUpDown 7s ease-in-out infinite;
+    max-width: 1000px;
+  }
+  
+  .hexagon-image {
+    width: 100%; /* Ajusta o tamanho da imagem hexagonal */
     height: auto;
-    border-radius: 10px;
-}
-
-@keyframes moveUpDown {
-    0%, 100% {
-        transform: translateY(0);
+  }
+  
+  @keyframes moveUpDown {
+    0%,
+    100% {
+      transform: translateY(0);
     }
     50% {
-        transform: translateY(-20px);
+      transform: translateY(-20px);
     }
-}
+  }
 
 /* second section */
 
