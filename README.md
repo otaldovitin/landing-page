@@ -1,2 +1,4 @@
 # landing-page
-Land para a TV. 
+  Projeto de uma landing-page, para apresentações, de futuras visitas ao SC.DT.
+
+  Entrega final produzida pelos estagiários Victor dos Santos e Gustavo Miguel. 
