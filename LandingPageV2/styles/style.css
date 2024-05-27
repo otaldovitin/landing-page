@@ -89,7 +89,7 @@ body {
 /* second section */
 
 .about-section {
-    background-color: transparent; /* Define o fundo transparente para o stroke */
+     /* Define o fundo transparente para o stroke */
     border: 4px solid #0d1b2a; /* Adiciona um stroke azul escuro */
     padding: 50px;
 }
@@ -124,7 +124,25 @@ body {
 }
 
 
-/* third section */
+/* carousel section */
+
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+
+}
+
+.carousel{
+    display: flex;
+}
+
+.carousel input{
+    display: none;
+}
+
+
 .products-section {
     padding: 50px 0;
     text-align: center;
@@ -140,17 +158,47 @@ body {
 }
 
 .slide{
-   
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-
-    transition: opacity 1s ease;
-    background-size: 1300px ; /* Definindo o tamanho da imagem como o tamanho original */
-    background-position: center;
-    background-repeat: no-repeat; /* Para garantir que a imagem não seja repetida */
+    
+    position: relative;
+     /* Definindo o tamanho da imagem como o tamanho original */
+    /* Para garantir que a imagem não seja repetida */
 }
+
+.content img{
+    width: 1000px;
+    height: 500px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: 550px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+
+}
+
+.manual-btn:hover{
+    background-color: #fff;
+}
+
 
 .slide h3{
     padding-top: 10rem;
@@ -159,7 +207,6 @@ body {
     padding-left: 3px; /* Espaçamento da borda esquerda */
     padding-left: 1rem;
     font-size: 54px;
-    font-family: ;
 }
 
 .slide p{
@@ -168,6 +215,63 @@ body {
     padding-left: 1rem;
     padding-bottom: 50rem ;
     font-size: 24;
+}
+
+#radio1:checked ~ .slide{
+    margin-left: -701px;
+    margin-right: 40px;
+}
+
+#radio2:checked ~ .slide{
+    margin-left: -701px;
+    margin-right: 40px;
+}
+
+#radio3:checked ~ .slide{
+    margin-left: -701px;
+    margin-right: 40px;
+}
+
+#radio4:checked ~ .slide{
+    margin-left: -701px;
+    margin-right: 40px;
+}
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 880px;
+    margin-top: 550px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-left: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: #fff;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: #fff;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: #fff;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #fff;
 }
 
 
