@@ -127,12 +127,13 @@ body {
   
   .subtitle-scdt {
     font-size: 1.5rem !important;
+    width: 60%;
   }
   
   .button-scdt {
-    display: inline-block;
     outline: 0;
     border: 0;
+    margin: 0;
     cursor: pointer;
     font-weight: 600;
     font-size: 1.5rem !important;
@@ -151,14 +152,17 @@ body {
     }
   }
 
+.button-container{
+    display: flex;
+    align-items: flex-end;
+}
 
 /* Estilo e animação da imagem hexagonal */
 .hexagon-container {
     justify-content: flex-center;
     align-items: center;
-    height: 100%;
     animation: moveUpDown 7s ease-in-out infinite;
-    max-width: 1000px;
+    width: 90%;
   }
   
   .hexagon-image {
@@ -176,6 +180,12 @@ body {
     }
   }
 
+.row{
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
 /* second section */
 
 .about-section {
@@ -186,7 +196,7 @@ body {
 
 .container {
     max-width: 1200px;
-    height: auto !important;
+    height: 100%!important;
     margin: 0 auto;
      /* Para evitar que o conteúdo ultrapasse a largura máxima */
 }
