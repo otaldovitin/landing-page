@@ -195,7 +195,7 @@ body {
 }
 
 .container {
-    max-width: 2200px;
+    max-width: 2200px;3
     height: 100%!important;
     margin: 0 auto;
      /* Para evitar que o conteúdo ultrapasse a largura máxima */
@@ -204,8 +204,6 @@ body {
 
 
 .sub{
-    position: relative;
-    left: -270px;
     padding-top: 2rem;
     margin-bottom: 20px;
     font-size: 4rem;
