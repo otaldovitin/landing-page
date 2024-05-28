@@ -272,6 +272,8 @@ body {
     border: 1px solid #000;
     position: relative;
     z-index: 1;
+    border: 0px;
+    border-radius: 20px;
  }
  #overflow {
     width: 100%;
