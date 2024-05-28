@@ -449,3 +449,26 @@ body {
     margin-top: 20px;
     text-align: justify;
 }
+
+/* Section Videos  */
+
+.video-contanier{
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+video{
+    width: 70%;
+    height: auto;
+}
+
+#sub-video{
+    padding-top: 5rem;
+    padding-left: 9px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+    background: linear-gradient(to bottom, #c9e8ff, #72b4e5);
+    -webkit-background-clip: text; /* Aplica o degrade ao texto */
+    -webkit-text-fill-color: transparent; /* Define a cor do texto como transparente */
+}
