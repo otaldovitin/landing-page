@@ -3,6 +3,17 @@
     scroll-behavior: smooth;
 }
 
+/* hide scrollbars */
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+/* hide scrollbars */
 .container-nav{
     max-width: 1400px !important;
     
@@ -18,7 +29,6 @@ body {
     background-color: #0d1b2a;
     color: white;
     font-family: Arial, sans-serif;
-    
 }
 
 .navbar {
@@ -32,6 +42,7 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
+    margin-top: 122px;
     
 }
 
@@ -77,8 +88,7 @@ body {
 /* Navbar */
 .navbar-logo{
     height: 60px !important;
-    display: flex;
-    align-items: center;
+    margin: auto;
 }
 
 .custom-bg {
@@ -87,6 +97,8 @@ body {
 
 .navbar-brand {
     margin-left: 140px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-logo {
@@ -483,7 +495,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.footer {
+#footer {
     display: flex;
     justify-content: space-between;
     align-content: center;
