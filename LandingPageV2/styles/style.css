@@ -195,7 +195,7 @@ body {
 }
 
 .container {
-    max-width: 2200px;3
+    max-width: 2200px;
     height: 100%!important;
     margin: 0 auto;
      /* Para evitar que o conteúdo ultrapasse a largura máxima */
