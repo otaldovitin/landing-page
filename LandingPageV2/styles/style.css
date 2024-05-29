@@ -77,6 +77,8 @@ body {
 /* Navbar */
 .navbar-logo{
     height: 60px !important;
+    display: flex;
+    align-items: center;
 }
 
 .custom-bg {
@@ -89,13 +91,14 @@ body {
 
 .navbar-logo {
     height: 30px;
-    margin-right: 10px;
+    margin-right: 0.2rem;
 }
 
 .navbar-logo-text {
     display: inline-block;
     font-size: 1.2em;
     color: #fff;
+    font-weight: bolder;
 }
 
 .navbar-nav {
@@ -455,6 +458,7 @@ body {
     margin: 0 auto;
     text-align: center;
     border-radius: 15px;
+    padding: 5%;
 }
 video{
     width: 70%;
@@ -470,4 +474,53 @@ video{
     background: linear-gradient(to bottom, #c9e8ff, #72b4e5);
     -webkit-background-clip: text; /* Aplica o degrade ao texto */
     -webkit-text-fill-color: transparent; /* Define a cor do texto como transparente */
+}
+
+/* Footer */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px;
+    background-color: #180045;
+    color: white;
+}
+.footer-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-right {
+    display: flex;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contato-text{
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.text-contato{
+    margin-bottom: auto !important;
+    font-size: 0.8rem;
 }
